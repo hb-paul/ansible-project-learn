@@ -23,7 +23,6 @@ homebrew_installed_packages:
   - pyenv
   - cairo
   - pango
-  - pip
 
 homebrew_taps:
   - homebrew/core
