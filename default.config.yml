@@ -17,32 +17,12 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - chromedriver
-  - doxygen
-  - gettext
-  - gifsicle
   - git
-  - go
-  - gpg
-  - hub
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
-  - nmap
   - node
-  - nvm
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
-  - pv
-  - wget
-  - wrk
+  - postgresql
+  - pyenv
+  - cairo
+  - pango
 
 homebrew_taps:
   - homebrew/core
@@ -87,7 +67,7 @@ npm_packages:
   #   state: present # present/absent/latest, default: present
   #   version: "^2.6" # default: N/A
 pip_packages:
-  []
+  ["virtualenv", "virtualenvwrapper"]
   # - name: mkdocs
   #   state: present # present/absent/latest, default: present
   #   version: "0.16.3" # default: N/A
