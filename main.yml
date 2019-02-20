@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  connection: local
+  remote_user: paul
 
   vars_files:
     - default.config.yml
